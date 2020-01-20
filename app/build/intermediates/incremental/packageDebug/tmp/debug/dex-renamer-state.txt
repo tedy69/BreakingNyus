@@ -1,4 +1,4 @@
-#Sun Jan 19 13:08:14 WIB 2020
+#Mon Jan 20 19:48:54 WIB 2020
 base.0=/home/tedyfazrin/Codingan/BreakingNyus/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

@@ -72,7 +72,18 @@
         android:layout_height="25dp"
         android:layout_below="@+id/toolbarMain"
         android:background="@drawable/bg_home_curve"
-        android:orientation="horizontal" />
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvMainSalam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:text="Selamat Pagi"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
 
     <include layout="@layout/item_main_grid" />
 

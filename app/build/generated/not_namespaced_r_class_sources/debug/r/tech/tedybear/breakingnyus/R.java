@@ -21,22 +21,23 @@ public final class R {
     public static final int abc_slide_out_top=0x7f010009;
     public static final int abc_tooltip_enter=0x7f01000a;
     public static final int abc_tooltip_exit=0x7f01000b;
-    public static final int btn_checkbox_to_checked_box_inner_merged_animation=0x7f01000c;
-    public static final int btn_checkbox_to_checked_box_outer_merged_animation=0x7f01000d;
-    public static final int btn_checkbox_to_checked_icon_null_animation=0x7f01000e;
-    public static final int btn_checkbox_to_unchecked_box_inner_merged_animation=0x7f01000f;
-    public static final int btn_checkbox_to_unchecked_check_path_merged_animation=0x7f010010;
-    public static final int btn_checkbox_to_unchecked_icon_null_animation=0x7f010011;
-    public static final int btn_radio_to_off_mtrl_dot_group_animation=0x7f010012;
-    public static final int btn_radio_to_off_mtrl_ring_outer_animation=0x7f010013;
-    public static final int btn_radio_to_off_mtrl_ring_outer_path_animation=0x7f010014;
-    public static final int btn_radio_to_on_mtrl_dot_group_animation=0x7f010015;
-    public static final int btn_radio_to_on_mtrl_ring_outer_animation=0x7f010016;
-    public static final int btn_radio_to_on_mtrl_ring_outer_path_animation=0x7f010017;
-    public static final int design_bottom_sheet_slide_in=0x7f010018;
-    public static final int design_bottom_sheet_slide_out=0x7f010019;
-    public static final int design_snackbar_in=0x7f01001a;
-    public static final int design_snackbar_out=0x7f01001b;
+    public static final int anim_tv=0x7f01000c;
+    public static final int btn_checkbox_to_checked_box_inner_merged_animation=0x7f01000d;
+    public static final int btn_checkbox_to_checked_box_outer_merged_animation=0x7f01000e;
+    public static final int btn_checkbox_to_checked_icon_null_animation=0x7f01000f;
+    public static final int btn_checkbox_to_unchecked_box_inner_merged_animation=0x7f010010;
+    public static final int btn_checkbox_to_unchecked_check_path_merged_animation=0x7f010011;
+    public static final int btn_checkbox_to_unchecked_icon_null_animation=0x7f010012;
+    public static final int btn_radio_to_off_mtrl_dot_group_animation=0x7f010013;
+    public static final int btn_radio_to_off_mtrl_ring_outer_animation=0x7f010014;
+    public static final int btn_radio_to_off_mtrl_ring_outer_path_animation=0x7f010015;
+    public static final int btn_radio_to_on_mtrl_dot_group_animation=0x7f010016;
+    public static final int btn_radio_to_on_mtrl_ring_outer_animation=0x7f010017;
+    public static final int btn_radio_to_on_mtrl_ring_outer_path_animation=0x7f010018;
+    public static final int design_bottom_sheet_slide_in=0x7f010019;
+    public static final int design_bottom_sheet_slide_out=0x7f01001a;
+    public static final int design_snackbar_in=0x7f01001b;
+    public static final int design_snackbar_out=0x7f01001c;
   }
   public static final class animator {
     public static final int design_appbar_state_list_animator=0x7f020000;
@@ -5077,16 +5078,17 @@ public final class R {
     public static final int transition_scene_layoutid_cache=0x7f0900fc;
     public static final int transition_transform=0x7f0900fd;
     public static final int tvDate=0x7f0900fe;
-    public static final int unchecked=0x7f0900ff;
-    public static final int uniform=0x7f090100;
-    public static final int unlabeled=0x7f090101;
-    public static final int up=0x7f090102;
-    public static final int useLogo=0x7f090103;
-    public static final int view_offset_helper=0x7f090104;
-    public static final int visible=0x7f090105;
-    public static final int withText=0x7f090106;
-    public static final int wrap=0x7f090107;
-    public static final int wrap_content=0x7f090108;
+    public static final int tvMainSalam=0x7f0900ff;
+    public static final int unchecked=0x7f090100;
+    public static final int uniform=0x7f090101;
+    public static final int unlabeled=0x7f090102;
+    public static final int up=0x7f090103;
+    public static final int useLogo=0x7f090104;
+    public static final int view_offset_helper=0x7f090105;
+    public static final int visible=0x7f090106;
+    public static final int withText=0x7f090107;
+    public static final int wrap=0x7f090108;
+    public static final int wrap_content=0x7f090109;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;

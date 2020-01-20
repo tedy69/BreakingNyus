@@ -24,10 +24,10 @@ public final class R {
         public static final int abc_slide_out_top = 0x7f010009;
         public static final int abc_tooltip_enter = 0x7f01000a;
         public static final int abc_tooltip_exit = 0x7f01000b;
-        public static final int design_bottom_sheet_slide_in = 0x7f010018;
-        public static final int design_bottom_sheet_slide_out = 0x7f010019;
-        public static final int design_snackbar_in = 0x7f01001a;
-        public static final int design_snackbar_out = 0x7f01001b;
+        public static final int design_bottom_sheet_slide_in = 0x7f010019;
+        public static final int design_bottom_sheet_slide_out = 0x7f01001a;
+        public static final int design_snackbar_in = 0x7f01001b;
+        public static final int design_snackbar_out = 0x7f01001c;
     }
     public static final class animator {
         private animator() {}
@@ -1147,12 +1147,12 @@ public final class R {
         public static final int transition_position = 0x7f0900fb;
         public static final int transition_scene_layoutid_cache = 0x7f0900fc;
         public static final int transition_transform = 0x7f0900fd;
-        public static final int uniform = 0x7f090100;
-        public static final int unlabeled = 0x7f090101;
-        public static final int up = 0x7f090102;
-        public static final int view_offset_helper = 0x7f090104;
-        public static final int visible = 0x7f090105;
-        public static final int wrap_content = 0x7f090108;
+        public static final int uniform = 0x7f090101;
+        public static final int unlabeled = 0x7f090102;
+        public static final int up = 0x7f090103;
+        public static final int view_offset_helper = 0x7f090105;
+        public static final int visible = 0x7f090106;
+        public static final int wrap_content = 0x7f090109;
     }
     public static final class integer {
         private integer() {}

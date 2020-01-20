@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,8 +20,9 @@ import tech.tedybear.breakingnyus.R;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     MaterialCardView cvHead, cvSports, cvTechno, cvBusiness, cvHealth, cvEntertaiment;
-    TextView tvToday;
+    TextView tvToday, tvMainSalam;
     String hariIni;
+    Animation animTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cvEntertaiment.setOnClickListener(this);
 
         tvToday = findViewById(R.id.tvDate);
+        tvMainSalam = findViewById(R.id.tvMainSalam);
+        animTv = AnimationUtils.loadAnimation(this, R.anim.anim_tv);
+        tvMainSalam.startAnimation(animTv);
+
         Date dateNow = Calendar.getInstance().getTime();
         hariIni = (String) DateFormat.format("EEEE", dateNow);
         if (hariIni.equalsIgnoreCase("sunday")) {
@@ -60,7 +67,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         getToday();
+        setSalam();
+    }
 
+    private void setSalam() {
+        Calendar calendar = Calendar.getInstance();
+        int timeOfDay = calendar.get(Calendar.HOUR_OF_DAY);
+        if (timeOfDay >= 0 && timeOfDay < 12) {
+            tvMainSalam.setText("Selamat Pagi" + " " + "Tedy");
+        } else if (timeOfDay >= 12 && timeOfDay < 15) {
+            tvMainSalam.setText("Selamat Siang" + " " + "Tedy");
+        } else if (timeOfDay >= 15 && timeOfDay < 18) {
+            tvMainSalam.setText("Selamat Sore" + " " + "Tedy");
+        } else if (timeOfDay >= 18 && timeOfDay < 24) {
+            tvMainSalam.setText("Selamat Malam" + " " + "Tedy");
+        }
     }
 
     private void getToday() {

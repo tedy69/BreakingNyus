@@ -705,9 +705,9 @@ public final class R {
         public static final int title_template = 0x7f0900f4;
         public static final int top = 0x7f0900f6;
         public static final int topPanel = 0x7f0900f7;
-        public static final int uniform = 0x7f090100;
-        public static final int up = 0x7f090102;
-        public static final int wrap_content = 0x7f090108;
+        public static final int uniform = 0x7f090101;
+        public static final int up = 0x7f090103;
+        public static final int wrap_content = 0x7f090109;
     }
     public static final class integer {
         private integer() {}
