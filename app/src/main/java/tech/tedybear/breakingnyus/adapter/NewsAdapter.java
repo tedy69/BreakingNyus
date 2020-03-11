@@ -20,9 +20,6 @@ import tech.tedybear.breakingnyus.holder.NewsViewHolder;
 import tech.tedybear.breakingnyus.model.ModelNews;
 import tech.tedybear.breakingnyus.utils.TimeUnits;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
 public class NewsAdapter extends RecyclerView.Adapter<NewsViewHolder> {
 
     public List<ModelNews> androidList;

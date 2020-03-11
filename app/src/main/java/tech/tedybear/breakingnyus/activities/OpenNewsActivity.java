@@ -16,10 +16,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import tech.tedybear.breakingnyus.R;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
-
 public class OpenNewsActivity extends AppCompatActivity {
 
     String url = "https://www.google.com";

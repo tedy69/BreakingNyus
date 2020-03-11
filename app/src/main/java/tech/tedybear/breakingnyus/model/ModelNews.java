@@ -1,8 +1,5 @@
 package tech.tedybear.breakingnyus.model;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
 public class ModelNews {
 
     private String title;
